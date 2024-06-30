@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .navigate {
+    background-color: #e5e5e5;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+  .review {
+    text-decoration: none;
+    color: black;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
